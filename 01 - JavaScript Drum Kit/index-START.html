@@ -76,7 +76,7 @@
       keys.forEach((key) => {
         key.addEventListener("transitionend", removeTransition);
       });
-      window.addEventListener("keydown",
+      window.addEventListener("keydown", (e) => {
         playSound(e);
       });
     </script>
